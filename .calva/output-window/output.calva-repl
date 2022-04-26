@@ -18,5 +18,127 @@
 clj꞉getting-started.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉getting-started.core꞉> 
-2
-clj꞉getting-started.core꞉> 
+{:name "scarface", :rating 10}
+clj꞉maps꞉> 
+{:name "scarface", :rating 10}
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:8:1).
+; Unable to resolve symbol: movie in this context
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:8:1).
+; Unable to resolve symbol: movie in this context
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:8:1).
+; Unable to resolve symbol: movie in this context
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:8:1).
+; Unable to resolve symbol: movie in this context
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:8:1).
+; Unable to resolve symbol: movie in this context
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:8:1).
+; Unable to resolve symbol: movie in this context
+clj꞉maps꞉> 
+#'maps/movie
+clj꞉maps꞉> 
+"scarface"
+clj꞉maps꞉> 
+"scarface"
+clj꞉maps꞉> 
+"scarface"
+clj꞉maps꞉> 
+{:name "scarface", :rating 10, :actors ["Alpaca"], :release-date "1921"}
+clj꞉maps꞉> 
+{:rating 10}
+clj꞉maps꞉> 
+; Syntax error compiling at (src/maps.clj:22:1).
+; Unable to resolve symbol: movie-info in this context
+clj꞉maps꞉> 
+#'maps/movie-info
+clj꞉maps꞉> 
+{:name "scarface", :rating 10, :actors ["Alpaca"], :release-date "1921"}
+clj꞉maps꞉> 
+#'maps/movie-info2
+clj꞉maps꞉> 
+{:name "other name", :rating 10, :actors ["Alpaca"], :release-date "1921"}
+clj꞉maps꞉> 
+{:a 1, :b 2}
+clj꞉maps꞉> 
+{:a 3}
+clj꞉maps꞉> 
+{:a "12"}
+clj꞉maps꞉> 
+{:a "concat12"}
+clj꞉maps꞉> 
+{:a "concat 12"}
+clj꞉maps꞉> 
+(:name :rating)
+clj꞉maps꞉> 
+("scarface" 10)
+clj꞉maps꞉> 
+{:name ["Alpaca"], :rating "1921"}
+clj꞉maps꞉> 
+{:name "other name", :rating ["Alpaca"]}
+clj꞉maps꞉> 
+; Syntax error reading source at (REPL:48:40).
+; Map literal must contain an even number of forms
+clj꞉maps꞉> 
+#'maps/user
+clj꞉maps꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/maps.clj:1:1).
+; ((require [clojure.walk :refer [keywordize-keys]])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉maps꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/maps.clj:1:1).
+; ((require [clojure.walk :refer [keywordize-keys]])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉maps꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/maps.clj:1:1).
+; ((require [clojure.walk :refer [keywordize-keys]])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉maps꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/maps.clj:1:1).
+; ((require (quote [clojure.walk :refer [keywordize-keys]]))) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉maps꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/maps.clj:1:1).
+; ((import (quote [clojure.walk :refer [keywordize-keys]]))) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉maps꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/maps.clj:1:1).
+; ((require [org.clojure :refer [keywordize-keys]])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉maps꞉> 
+; Execution error (FileNotFoundException) at maps/eval7740$loading (form-init5003577320005013490.clj:1).
+; Could not locate org/clojure__init.class, org/clojure.clj or org/clojure.cljc on classpath.
+clj꞉maps꞉> 
+; Execution error (FileNotFoundException) at maps/eval7746$loading (form-init5003577320005013490.clj:1).
+; Could not locate org/clojure/walk__init.class, org/clojure/walk.clj or org/clojure/walk.cljc on classpath.
+clj꞉maps꞉> 
+nil
+clj꞉maps꞉> 
+#'maps/user
+clj꞉maps꞉> 
+{:name "on the code again"}
+clj꞉maps꞉> 
+"on the code again"
+clj꞉maps꞉> 
+"movie-name"
+clj꞉maps꞉> 
+"movie-name"
+clj꞉maps꞉> 
+"maps/movie-name"
+clj꞉maps꞉> 
+{"a" 3}
+clj꞉maps꞉> 
+#'maps/print-movie-rating
+clj꞉maps꞉> 
+scarface was rated 10 out of 10
+nil
+clj꞉maps꞉> 
+#'maps/print-movie-rating
+clj꞉maps꞉> 
+scarface was rated 10 out of 10
+nil
+clj꞉maps꞉> 
+#'maps/print-movie-rating
+clj꞉maps꞉> 
+scarface was rated 10 out of 10
+{:name scarface, :rating 10}
+nil
+clj꞉maps꞉> 
