@@ -142,3 +142,4 @@ scarface was rated 10 out of 10
 {:name scarface, :rating 10}
 nil
 clj꞉maps꞉> 
+; nREPL Connection was closed
